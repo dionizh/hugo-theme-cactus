@@ -34,10 +34,9 @@
       {{ end }}
       </p>
   {{ end }}
-      <div align="center"><img src="img/meetokyo.jpg" width="75%"></div>
   </section>
 
-  <!-- <section id="writing">
+  <section id="writing">
     <span class="h1"><a href="{{ .Site.Params.mainSection | absURL }}">Writings</a></span>
     {{ if (and (and (isset .Site.Params "tagsoverview") (eq .Site.Params.tagsOverview true)) (gt (len .Site.Taxonomies.tags) 0)) }}
     <span class="h2">Topics</span>
@@ -84,7 +83,8 @@
       {{ end }}
     </ul>
     {{ end }}
-  </section> -->
+    <div align="center"><img src="img/meetokyo.jpg" width="75%"></div>
+  </section>
 
   <!-- {{ $showProjectsList := false }}
   {{ if .Site.Data.projects }}
